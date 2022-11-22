@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #030303;
+    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20% 10px 30px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    z-index: 5;
+    border-bottom: 10px solid;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-slice: 1;
+}
+
+.squad-logo {
+    width: 130px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+    cursor: none;
+}
+
+.logo-footer img {
+    width: 80px;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #181818;
+    padding: 0 40px 0 40px;
+}
+
+.latest-project{
+    width: 100%;
+    height: 35vh;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.project-logo{
+    width: 300px;
+}
+.project-container{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10% 0 10%;
+}
+.project-container p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 25px;
+    padding: 0 25px 0 25px ;
+}
+.brand-title {
+    font-size: 42px;
+    color: #fff;
+}
+
+.first-area {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.subject-title {
+    font-size: 22pt;
+    color: #FFF;
+}
+
+.header-navigator ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-navigator ul li {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    transition: background-color 350ms ease;
+}
+
+.header-navigator ul li+li {
+    margin-left: 15px;
+}
+
+.header-navigator ul li:hover {
+    background-color: purple;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.footer > a {
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: purple;
+    padding: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(80, 2, 80);
+    border-radius: 12px;
+    padding: 5px;
+}
